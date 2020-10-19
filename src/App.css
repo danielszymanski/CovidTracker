@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.infImg
+{
+  width: 50px;
+}
+
+.deathImg
+{
+  width: 40px;
+}
