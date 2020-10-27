@@ -46,3 +46,17 @@
 {
   width: 40px;
 }
+
+text
+{
+  font-weight: bold;
+}
+.casesText
+{
+  color: red;
+}
+
+.recoveredText
+{
+  color: green;
+}
