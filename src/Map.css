@@ -2,10 +2,19 @@
 {
     height: 500px;
     background-color: white;
-    padding-left: 10%;
-    padding-right: 10%;
     border-radius: 20px;
     margin-top: 16px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+.countryFlag{
+    height: 100px;
 }
 
 .map .leaflet-container

@@ -1,0 +1,20 @@
+.table {
+  margin-top: 20px;
+  height: 400px;
+  overflow: scroll;
+  color: #6a5d5d;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}

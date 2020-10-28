@@ -2,10 +2,11 @@ import React from 'react';
 import { Map as LeafletMap, TileLayer } from "react-leaflet";
 import './Map.css'
 
-export default function Map({ center, zoom, flagSrc }) {
+export default function Map({ countries, center, zoom, flagSrc }) {
     return (
+        <>
+        <img className='countryFlag' src={flagSrc} alt=""/>
         <div className="map">
-            <img className='countryFlag' src={flagSrc} alt=""/>
             <LeafletMap center={center} zoom={zoom}>
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -14,5 +15,6 @@ export default function Map({ center, zoom, flagSrc }) {
                 />
             </LeafletMap>
         </div>
+        </>
     )
 }
